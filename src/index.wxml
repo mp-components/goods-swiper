@@ -1,0 +1,20 @@
+<view class="swiper-container">
+  <swiper
+    class="goods-swiper"
+    circular
+    bindchange="handleChange"
+    bind:tap="prevImg"
+  >
+    <block wx:for="{{urls}}" wx:key="">
+      <swiper-item item-id="{{index}}">
+        <image
+          class="swiper-image"
+          src="{{item}}"
+          mode="{{mode}}"
+          lazy-load
+        />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="dots">{{currentIndex + 1}}/{{urls.length}}</view>
+</view>

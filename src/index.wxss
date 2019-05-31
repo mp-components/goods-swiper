@@ -1,0 +1,19 @@
+.swiper-container,
+.goods-swiper,
+.swiper-image {
+  width: 750rpx;
+  height: 750rpx;
+}
+.swiper-container {
+  position: relative;
+}
+.dots {
+  position: absolute;
+  right: 30rpx;
+  bottom: 20rpx;
+  padding: 6rpx 20rpx;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  color: #fff;
+}

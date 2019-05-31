@@ -1,0 +1,16 @@
+{
+  "name": "goods-swiper",
+  "version": "0.0.0",
+  "description": "Goods Swiper",
+  "repository": "https://github.com/mp-components/goods-swiper",
+  "author": "pengtikui",
+  "license": "MIT",
+  "main": "src/index.js",
+  "miniprogram": "src",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-mp": "^0.1.1",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
